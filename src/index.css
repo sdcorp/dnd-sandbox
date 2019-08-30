@@ -26,16 +26,25 @@ main{
 aside{
   display: grid;
   grid-gap: 1rem;
+  padding: 0 10px;
 }
 
 .builder{
-  padding: 1rem;
   background-color: lightgray;
 }
 
 .indicator{
-  padding: 5rem 1rem;
+  padding: 5rem 0;
+  max-width: 300px;
+  text-align: center;
 }
 .main-area{
   border: 2px dashed black;
+  padding: 2rem;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
 }

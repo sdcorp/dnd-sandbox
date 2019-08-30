@@ -1,14 +1,13 @@
 import React from 'react';
 import Builder from './Builder';
+import MainArea from './MainArea';
 
 function App() {
   return (
     <div>
       <main>
         <Builder />
-        <div className="main-area">
-          <h1>Main Area</h1>
-        </div>
+        <MainArea />
       </main>
     </div>
   );
