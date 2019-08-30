@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 import Builder from './Builder';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <main>
         <Builder />
         <div className="main-area">
