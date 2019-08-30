@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { DndProvider } from 'react-dnd';
 import HTML5Backend from 'react-dnd-html5-backend';
 
-import './index.css';
+import './index.scss';
 import App from './App';
 
 ReactDOM.render(

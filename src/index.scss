@@ -30,14 +30,27 @@ aside{
 }
 
 .builder{
-  background-color: lightgray;
+  /* background-color: lightgray; */
+  padding: 1rem 0;
 }
 
 .indicator{
   padding: 5rem 0;
   max-width: 300px;
   text-align: center;
+  position: relative;
+  button{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: grab;
+    &:active{
+
+      cursor: grabbing;
+    }
+  }
 }
+
 .main-area{
   border: 2px dashed black;
   padding: 2rem;

@@ -5,6 +5,8 @@ import MainArea from './MainArea';
 function App() {
   return (
     <div>
+      Records
+      <br />
       <main>
         <Builder />
         <MainArea />
